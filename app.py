@@ -6,6 +6,7 @@ from nltk.corpus import stopwords
 import altair as alt
 import pandas as pd
 from nltk.stem.porter import PorterStemmer
+import re
 ps=PorterStemmer()
 
 stop_words = set(stopwords.words('english'))
