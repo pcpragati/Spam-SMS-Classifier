@@ -1,3 +1,5 @@
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
 import streamlit as st
 import pickle
 import string
